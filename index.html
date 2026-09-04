@@ -3,102 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Sultaniqz Shop</title>
 
 <style>
-* {
-    box-sizing: border-box;
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial,sans-serif;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0b0b0b;
-    color: white;
+body{
+  background:#080808;
+  color:white;
 }
 
-header {
-    background: linear-gradient(135deg, #ff0000, #650000);
-    padding: 25px 15px;
-    text-align: center;
+header{
+  background:#e60000;
+  padding:20px;
+  text-align:center;
+  box-shadow:0 0 20px red;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 32px;
+header h1{
+  font-size:32px;
 }
 
-header p {
-    margin: 8px 0 0;
+header p{
+  margin-top:5px;
 }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
+.container{
+  padding:20px;
+  max-width:1100px;
+  margin:auto;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 25px;
+.title{
+  text-align:center;
+  margin-bottom:20px;
+  font-size:25px;
 }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
 }
 
-.card {
-    background: #171717;
-    border: 1px solid #333;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 0 15px rgba(255,0,0,0.25);
+.card{
+  background:#151515;
+  border:1px solid #e60000;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 0 12px #700000;
 }
 
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
 }
 
-.card-content {
-    padding: 15px;
+.card-content{
+  padding:15px;
 }
 
-.card h3 {
-    margin-top: 0;
+.card h2{
+  color:#ff3333;
+  margin-bottom:8px;
 }
 
-.price {
-    color: #ff3333;
-    font-size: 22px;
-    font-weight: bold;
+.price{
+  font-size:22px;
+  font-weight:bold;
+  margin:10px 0;
 }
 
-.button {
-    display: block;
-    text-align: center;
-    background: #ff0000;
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 10px;
-    margin-top: 15px;
+.btn{
+  display:block;
+  text-align:center;
+  background:#e60000;
+  color:white;
+  text-decoration:none;
+  padding:12px;
+  border-radius:10px;
+  font-weight:bold;
 }
 
-.button:hover {
-    background: #cc0000;
+.btn:hover{
+  background:#ff3333;
 }
 
-footer {
-    text-align: center;
-    padding: 25px;
-    margin-top: 30px;
-    background: #111;
-    color: #aaa;
+footer{
+  text-align:center;
+  padding:25px;
+  margin-top:30px;
+  color:#aaa;
 }
 </style>
 </head>
@@ -106,60 +107,51 @@ footer {
 <body>
 
 <header>
-    <h1>🐼 Sultaniqz Shop</h1>
-    <p>ເວັບຂາຍ ID ເກມ</p>
+  <h1>🐼 Sultaniqz Shop</h1>
+  <p>ເວັບຂາຍ ID ເກມ</p>
 </header>
 
 <div class="container">
 
-    <div class="title">
-        <h2>🔥 ID ເກມທີ່ມີຂາຍ</h2>
-        <p>ເລືອກ ID ທີ່ເຈົ້າສົນໃຈ</p>
+  <h2 class="title">🔥 ID ເກມທີ່ມີຂາຍ</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/600x400">
+      <div class="card-content">
+        <h2>Free Fire ID #001</h2>
+        <p>ລາຍລະອຽດ ID ເກມ</p>
+        <div class="price">50,000 K</div>
+        <a class="btn" href="#">ເບິ່ງລາຍລະອຽດ</a>
+      </div>
     </div>
 
-    <div class="products">
-
-        <div class="card">
-            <img src="https://via.placeholder.com/600x400">
-            <div class="card-content">
-                <h3>🎮 Free Fire ID #001</h3>
-                <p>ເລເວວສູງ • ມີ Skin • ມີຂອງຫາຍາກ</p>
-                <div class="price">50,000 ₭</div>
-                <a class="button" href="https://www.facebook.com/" target="_blank">
-                    ສອບຖາມຊື້
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://via.placeholder.com/600x400">
-            <div class="card-content">
-                <h3>🎮 Free Fire ID #002</h3>
-                <p>Skin ຫຼາຍ • ຂອງຫາຍາກ • ພ້ອມໃຊ້</p>
-                <div class="price">80,000 ₭</div>
-                <a class="button" href="https://www.facebook.com/" target="_blank">
-                    ສອບຖາມຊື້
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://via.placeholder.com/600x400">
-            <div class="card-content">
-                <h3>🎮 Roblox ID #003</h3>
-                <p>Item ຫຼາຍ • ຂອງຫາຍາກ • ບັນຊີພ້ອມໃຊ້</p>
-                <div class="price">100,000 ₭</div>
-                <a class="button" href="https://www.facebook.com/" target="_blank">
-                    ສອບຖາມຊື້
-                </a>
-            </div>
-        </div>
-
+    <div class="card">
+      <img src="https://via.placeholder.com/600x400">
+      <div class="card-content">
+        <h2>Free Fire ID #002</h2>
+        <p>ລາຍລະອຽດ ID ເກມ</p>
+        <div class="price">80,000 K</div>
+        <a class="btn" href="#">ເບິ່ງລາຍລະອຽດ</a>
+      </div>
     </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/600x400">
+      <div class="card-content">
+        <h2>Roblox ID #003</h2>
+        <p>ເກມ Roblox</p>
+        <div class="price">100,000 K</div>
+        <a class="btn" href="#">ເບິ່ງລາຍລະອຽດ</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <footer>
-    © 2026 Sultaniqz Shop
+  © 2026 Sultaniqz Shop
 </footer>
 
 </body>
