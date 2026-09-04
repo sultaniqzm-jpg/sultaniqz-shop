@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sultaniqz Shop</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #ff0000, #650000);
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #171717;
+    border: 1px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255,0,0,0.25);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.price {
+    color: #ff3333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: #cc0000;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    background: #111;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐼 Sultaniqz Shop</h1>
+    <p>ເວັບຂາຍ ID ເກມ</p>
+</header>
+
+<div class="container">
+
+    <div class="title">
+        <h2>🔥 ID ເກມທີ່ມີຂາຍ</h2>
+        <p>ເລືອກ ID ທີ່ເຈົ້າສົນໃຈ</p>
+    </div>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/600x400">
+            <div class="card-content">
+                <h3>🎮 Free Fire ID #001</h3>
+                <p>ເລເວວສູງ • ມີ Skin • ມີຂອງຫາຍາກ</p>
+                <div class="price">50,000 ₭</div>
+                <a class="button" href="https://www.facebook.com/" target="_blank">
+                    ສອບຖາມຊື້
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/600x400">
+            <div class="card-content">
+                <h3>🎮 Free Fire ID #002</h3>
+                <p>Skin ຫຼາຍ • ຂອງຫາຍາກ • ພ້ອມໃຊ້</p>
+                <div class="price">80,000 ₭</div>
+                <a class="button" href="https://www.facebook.com/" target="_blank">
+                    ສອບຖາມຊື້
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/600x400">
+            <div class="card-content">
+                <h3>🎮 Roblox ID #003</h3>
+                <p>Item ຫຼາຍ • ຂອງຫາຍາກ • ບັນຊີພ້ອມໃຊ້</p>
+                <div class="price">100,000 ₭</div>
+                <a class="button" href="https://www.facebook.com/" target="_blank">
+                    ສອບຖາມຊື້
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 Sultaniqz Shop
+</footer>
+
+</body>
+</html>
